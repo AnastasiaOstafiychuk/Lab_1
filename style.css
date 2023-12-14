@@ -1,0 +1,92 @@
+.highlight {
+	background-color: green;
+}
+
+.menuitem {
+	cursor: pointer;
+}
+
+.selected {
+	color: red;
+	font-weight: bold;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f8f8;
+	color: #333;
+	margin: 20px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1,
+h2 {
+	color: #ff5733;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.special-offer {
+	background-color: #ffe4b5;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.menuitem {
+	list-style: none;
+	margin: 5px 0;
+}
+
+.Btn {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.Btn:hover {
+	background-color: #45a049;
+}
+
+#complaintForm {
+	max-width: 600px;
+	margin: 20px 0;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}

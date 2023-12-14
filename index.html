@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Піца Чернівці</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<p>Спеціальна пропозиція:</p>
+	<div>Замов 2 піци і Маргаритта в подарунок!!!</div>
+	<button class="Btn" id="special">Замовити</button>
+	<h2>Меню:</h2>
+	<ul>
+		<li class="menuitem">Маргаритта</li>
+		<li class="menuitem">Цезар</li>
+		<li class="menuitem">Прошуто</li>
+		<li class="menuitem">Гавайська</li>
+		<li class="menuitem">З грибами</li>
+	</ul>
+	<p></p>
+	<button class="Btn" id="Order">Замовити</button>
+
+	<h1>Форма скарг і пропозицій</h1>
+
+	<form id="complaintForm">
+		<label for="name">Ваше ім'я:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Ваша електронна пошта:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="complaint">Ваша скарга або пропозиія:</label>
+		<textarea id="complaint" name="complaint" rows="4" required></textarea><br>
+
+		<input type="submit" value="Надіслати">
+	</form>
+
+	<p></p>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
